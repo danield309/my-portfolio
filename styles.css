@@ -1,0 +1,41 @@
+body{
+    font-family: "Lucida Console", Courier, monospace;
+    font-size: 1.0em;
+    font-weight: bold;
+    line-height: normal;
+    color: #9966ff;
+    background-color: #66ffff;
+    border-color: #cc3399;
+    border-width: thick;
+    border-style: groove;
+    margin: auto;
+}
+.header {
+    background-color: #66ffff;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.aboutme {
+    text-align: center;
+    list-style: none;
+}
+
+section ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    list-style: none;
+    padding: 0;
+}
+
+img {
+    border-radius: 50%;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center
+}
